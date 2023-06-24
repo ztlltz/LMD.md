@@ -59,7 +59,7 @@
 ```  
 两种最终的效果是一样的:  
 
-![阿梓](https://i.pximg.net/img-original/img/2023/04/14/17/07/26/107164695_p0.jpg)
+![阿梓](https://i.pximg.net/img-master/img/2023/04/14/17/07/26/107164695_p18_master1200.jpg)
 
 ![我也是阿梓][代号2]
 
