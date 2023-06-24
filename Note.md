@@ -59,8 +59,10 @@
 ```  
 两种最终的效果是一样的:  
 
-![阿梓](https://i.pximg.net/img-master/img/2023/04/14/17/07/26/107164695_p18_master1200.jpg)
+![阿梓](https://github.com/ztlltz/LMD.md/blob/main/107164695_p18_master1200.jpg?raw=true)
 
 ![我也是阿梓][代号2]
 
-[代号2]:https://i.pximg.net/img-original/img/2023/04/14/17/07/26/107164695_p18.jpg
+[代号2]:https://github.com/ztlltz/LMD.md/blob/main/107164695_p0_master1200.jpg?raw=true
+
+>图片来源：pixiv 作者：[代宋传](https://www.pixiv.net/users/19323349)
