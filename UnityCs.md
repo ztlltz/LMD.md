@@ -123,3 +123,39 @@ catch
             Console.WriteLine(s);//  2
   ```
   >1和2等效，都输出abnsujhndaio99
+# 流程控制
+>同c语言
+## if
+```c#
+if(条件){
+//语句
+}
+else{
+
+}
+```
+## switch
+```
+switch(value){
+    case v1:
+//语句
+    case v2:
+//语句
+    ...
+    case v99:
+//语句
+    default:
+//语句
+
+}
+```
+## while & do while
+```
+while(条件){
+//语句
+}
+
+do{
+//语句
+}while(条件)
+```
