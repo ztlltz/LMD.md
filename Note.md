@@ -4,7 +4,7 @@
 >斜体italic  
 >标题head  
 >超链接link  
->图片image  
+>[图片image](#1)   
 >引用blacknotes  
 >列举list  
 >分割线line  
@@ -57,7 +57,7 @@
 
 [代号1]:https://github.com/ztlltz
 
-# 4.图片
+<h1 id=1> 4.图片</h1>
 图片和超链接的不同是，多了一个 **!** 号
 ```
 1. ![内容](链接)
