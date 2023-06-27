@@ -160,7 +160,7 @@ do{
 }while(条件)
 ```
 # 复合数据类型
-### _enum_ 枚举类型
+## _enum_ 枚举类型
 ```c#
 enum name{
 a,
@@ -205,3 +205,41 @@ c,//6
 同时要注意，如果要把enum和常量比较，可以使用name.a
 
 >enum类型变量不能进行算术运算
+
+</br></br></br></br>
+
+## _array_ 数组
+
+Cs中数组这一块和C与C++有着 **较大不同**
+
+数组的声明和内存分配被分开了，也就是，现在需要我们来为数组名来手动开辟内存
+```c#
+int[] arrray1 = new int[len];//一维数组
+
+int[,] array2 = new int[len,wid]//二维数组
+
+```
+实际上这样来看，这里的数组和指针就比较像，实际上也正是如此，在Cs中数组以 **引用** 的方式工作
+
+通过成员变量Length可以获知一维数组长度  
+
+对于多维数组，需使用GetLength（维度）方法
+```c#
+array1.Length;
+
+array2.GetLength(0);//一维长度
+array2.GetLength(1);//二维长度
+```
+
+### 元素调用
+Cs的数组的下标是 **从0开始的** ，注意不要越界
+```
+int[] arrray1 = new int[5];
+
+int[,] array2 = new int[5,5];
+
+array[2];
+
+array[2,2];
+```
+
