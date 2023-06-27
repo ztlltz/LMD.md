@@ -15,7 +15,8 @@
 ```
 写在像这样灰框框里的内容都是markdown的语法规范
 ```
-###### 学习网站
+<h6 id=2> 学习网站</h6>
+
 [Markdown工具](https://markdown.com.cn/editor/)  
 [Markdown Tutorial](https://www.markdowntutorial.com/)
 
@@ -56,6 +57,15 @@
 [巧了我也是一个超链接][代号1]
 
 [代号1]:https://github.com/ztlltz
+___
+如果要进行 **文内跳转** ，要使用html里面的一些知识
+```
+[内容](#id1)
+在要跳转到的地方
+<h6 id=id1>内容</h6>
+```
+以下是一个例子
+[学习网站](#2)
 
 <h1 id=1> 4.图片</h1>  
 
