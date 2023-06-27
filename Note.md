@@ -15,7 +15,7 @@
 ```
 写在像这样灰框框里的内容都是markdown的语法规范
 ```
-<h6 id=2> 学习网站</h6>
+<h1 id=2> 学习网站</h1>
 
 [Markdown工具](https://markdown.com.cn/editor/)  
 [Markdown Tutorial](https://www.markdowntutorial.com/)
