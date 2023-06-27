@@ -58,14 +58,17 @@
 [代号1]:https://github.com/ztlltz
 
 <h1 id=1> 4.图片</h1>  
+
 图片和超链接的不同是，多了一个 **!** 号
+
 ```
 1. ![内容](链接)
 
 2. ![内容][代号]
 
    [代号]:链接
-```  
+```
+
 两种最终的效果是一样的:  
 
 ![阿梓](https://github.com/ztlltz/LMD.md/blob/main/107164695_p18_master1200.jpg?raw=true)
