@@ -242,4 +242,49 @@ array[2];
 
 array[2,2];
 ```
+## _结构体_
+Cs里的结构体和C++的结构体完全一样
+```c#
+struct name {
 
+    变量;
+    函数;
+    结构体;//不能是name
+
+}
+```
+
+
+
+# 函数
+```c#
+static int Fun(int a,int b){
+//语句
+return value;
+}
+```
+使用 **ref** 和 **out** 关键字可以把函数的形参改成实参
+```
+static void Fun( ref int a,int b){
+a=1;
+return;
+}
+int a,b;
+a=0;
+b=0;
+Fun(ref a,b);//a的值会变成1
+```
+out的写法和效果如ref完全一致，但两者对于变量有不同的要求
+
+* ref要求变量在作为参数前必须赋过值
+* out要求在函数中变量在使用前必须重新赋初值
+
+out的要求大伙可能不太理解，举个错误的例子
+```
+static void Fun( out int a,int b){
+b=a;
+a=b+1;
+return;
+}
+```
+这个函数错在a未重新赋值就调用了a的值，因此我们也可以认为，如果使用了out关键字，那么变量会在进入函数时被清空
