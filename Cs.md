@@ -452,3 +452,27 @@ static class 类名{
   ```
   注意，静态构造函数 **不是** 无参构造函数的重载
 # 拓展方法
+使用拓展方法，可以为 **非静态** 的类添加新的方法
+* 拓展方法只能为 **非静态类** 添加方法
+* 拓展方法必须定义在 **静态类** 中,且是一个静态的方法
+
+#### 定义：
+```c#
+ static public 返回值 方法名(this 类 value,参数类型 参数名，参数类型 参数名 ...) { 
+            //语句
+        }
+```
+* 类指的是为哪个类拓展方法
+* value指代的是实例化的对象
+#### 以下是一个为int类添加Print方法的例子
+```c#
+  static class Tool {
+        static public void Print(this int value) { 
+            Console.WriteLine(value);
+        }
+}
+
+int a ;
+a.Print();
+```
+### 如果拓展方法和原方法重名，则会调用原方法
