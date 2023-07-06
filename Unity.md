@@ -9,3 +9,10 @@
 <img width="591" alt="image" src="https://github.com/ztlltz/LMD.md/assets/104620738/1767d85f-c00f-4d4e-8df1-ef0dcdc25c77">
 <img width="598" alt="image" src="https://github.com/ztlltz/LMD.md/assets/104620738/35b3f7db-812d-4558-a132-65fa5a2c8f9d">
 
+___
+
+> #### 如果想用脚本文件控制一个物体，可以在脚本中直接定义一个名为 GameObject的对象然后直接在unity中用拖拽的方式为变量赋值
+
+<img width="568" alt="image" src="https://github.com/ztlltz/LMD.md/assets/104620738/38643741-76ab-466d-8dfe-5ebf0f95a640">
+
+
