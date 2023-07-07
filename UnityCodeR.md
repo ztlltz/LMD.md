@@ -10,4 +10,12 @@
             e.transform.localPosition = transform.localPosition;
 ```
 # 旋转
-<img width="608" alt="image" src="https://github.com/ztlltz/LMD.md/assets/104620738/d40b65a8-d862-4630-9425-b69857b9e016">
+```c#
+        if(Input.GetKey(KeyCode.A)) {
+            transform.Rotate(0,0, SpeedP * Time.smoothDeltaTime,Space.Self);//左转
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(0, 0, -1*SpeedP * Time.smoothDeltaTime, Space.Self);//右转
+        }
+```
