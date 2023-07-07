@@ -14,5 +14,3 @@ ___
 > #### 如果想用脚本文件控制一个物体，可以在脚本中直接定义一个名为 GameObject的对象然后直接在unity中用拖拽的方式为变量赋值
 
 <img width="568" alt="image" src="https://github.com/ztlltz/LMD.md/assets/104620738/38643741-76ab-466d-8dfe-5ebf0f95a640">
-
-
