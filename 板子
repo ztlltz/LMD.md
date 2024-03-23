@@ -1,0 +1,19 @@
+#树状数组
+```c++
+#define lowbit(x) (x&(-x))
+ll n;
+ll ans=0;
+int one_change(int x,int k){
+	for(int i=x;i<=n;i+=lowbit(i)){
+		tree[i]+=k;
+	}
+}
+void lrfind(int l,int r){
+	for(int i=r;i>=1;i-=lowbit(i)){
+		ans+=tree[i];
+	}
+	for(int i=l-1;i>=1;i-=lowbit(i)){
+		ans-=tree[i];
+	}
+}
+```
